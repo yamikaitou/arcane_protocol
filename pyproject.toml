@@ -1,0 +1,16 @@
+[project]
+name = "falrekian-arcane-protocol"
+version = "0.1"
+authors = [
+    { name="Ryan LeBlanc" }
+]
+description = "Access and manage various nodes"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+codex = "codex.__main__:cli"
