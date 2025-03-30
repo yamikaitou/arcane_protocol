@@ -1,6 +1,6 @@
 [project]
 name = "falrekian-arcane-protocol"
-version = "0.1"
+version = "0.0.2"
 authors = [
     { name="Ryan LeBlanc" }
 ]
@@ -13,4 +13,7 @@ classifiers = [
 ]
 
 [project.scripts]
-codex = "codex.__main__:cli"
+codex = "arcane_protocol.codex.__main__:cli"
+lattice = "arcane_protocol.lattice.__main__:cli"
+nexus = "arcane_protocol.nexus.__main__:cli"
+vault = "arcane_protocol.vault.__main__:cli"

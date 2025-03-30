@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: falrekian-arcane-protocol
+Version: 0.0.2
+Summary: Access and manage various nodes
+Author: Ryan LeBlanc
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# arcane_protocol
+Falrekian Arcane Protocol
+
+Codex = Knowledgebase
+Vault = Credentails and Secrets
+Nexus = Monitoring
+Lattice = Node Communication
