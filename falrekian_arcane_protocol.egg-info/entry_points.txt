@@ -1,5 +1,0 @@
-[console_scripts]
-codex = arcane_protocol.codex.__main__:cli
-lattice = arcane_protocol.lattice.__main__:cli
-nexus = arcane_protocol.nexus.__main__:cli
-vault = arcane_protocol.vault.__main__:cli
