@@ -2,6 +2,7 @@
 Falrekian Arcane Protocol  
   
 Codex = Knowledgebase  
-Vault = Credentails and Secrets  
+Vault = Database Communication (SQLite)  
 Nexus = Monitoring  
-Lattice = Node Communication  
+Lattice = Inter-Node Communication (Ansible)  
+Link = DNS Sync (Tailscale <=> Cloudflare)  
