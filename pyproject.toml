@@ -1,20 +1,22 @@
 [project]
 name = "falrekian-arcane-protocol"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
     { name="Ryan LeBlanc" }
 ]
 description = "Access and manage various nodes"
 readme = "README.md"
 requires-python = ">=3.10"
+dependencies = [
+    "click==8.1.8",
+    "keyring==25.6.0",
+    "docker==7.1.0",
+    "platformdirs==4.3.7"
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
 
 [project.scripts]
-codex = "arcane_protocol.codex.__main__:cli"
-lattice = "arcane_protocol.lattice.__main__:cli"
-nexus = "arcane_protocol.nexus.__main__:cli"
-vault = "arcane_protocol.vault.__main__:cli"
-link = "arcane_protocol.link.__main__:cli"
+arcane = "arcane_protocol.__main__:entry_point"
